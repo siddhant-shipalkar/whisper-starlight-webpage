@@ -1,0 +1,20 @@
+.custom-navbar {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  backdrop-filter: blur(8px);
+  background: rgba(33, 37, 41, 0.85) !important;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.custom-navbar .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+.custom-navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.custom-navbar .nav-link:hover, .custom-navbar .nav-link.active {
+  color: #ff4d4f !important;
+}

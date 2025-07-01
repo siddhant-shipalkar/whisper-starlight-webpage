@@ -1,0 +1,41 @@
+.booking-form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2.5rem 2rem;
+}
+.booking-form-container h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+}
+.booking-form .form-label {
+  font-weight: 500;
+  color: #333;
+}
+.booking-form .form-control, .booking-form textarea {
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+  transition: border-color 0.2s;
+}
+.booking-form .form-control:focus, .booking-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.08);
+}
+.booking-form .btn-primary {
+  background: linear-gradient(90deg, #007bff 60%, #00c6ff 100%);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.2s, transform 0.2s;
+}
+.booking-form .btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 60%, #009ec3 100%);
+  transform: translateY(-2px) scale(1.03);
+}
